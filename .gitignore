@@ -9,3 +9,56 @@ sites/site*/public/theme/
 textpattern/
 HISTORY.txt
 README.txt
+# Created by https://www.toptal.com/developers/gitignore/api/windows,codekit,textpattern
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,codekit,textpattern
+
+### CodeKit ###
+# General CodeKit files to ignore
+config.codekit
+config.codekit3
+/min
+
+### CodeKit Patch ###
+*/codekit-config.json
+.codekit-cache
+
+### Textpattern ###
+.htaccess
+css.php
+rpc/
+sites/site*/admin/
+sites/site*/private/
+sites/site*/public/admin/
+sites/site*/public/setup/
+sites/site*/public/theme/
+textpattern/
+HISTORY.txt
+README.txt
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/windows,codekit,textpattern
